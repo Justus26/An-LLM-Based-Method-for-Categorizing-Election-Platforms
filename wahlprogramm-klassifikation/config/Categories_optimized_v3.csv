@@ -1,0 +1,58 @@
+Code;Name;Explanation;Notes;Tricky_Example;Counter_Example_1
+0;No meaningful category applies;Statements not covered by any other category. Use restrictively. Statements opposing agricultural policy are coded 000.;Statements opposing agricultural policy are coded 000;;
+101;Foreign Special Relationships: Positive;"Favourable mentions of particular countries with which the manifesto country has a special relationship; the need for co-operation with and/or aid to such countries.";;;
+102;Foreign Special Relationships: Negative;Negative mentions of particular countries with which the manifesto country has a special relationship.;;;
+103;Anti-Imperialism: Positive;Negative references to imperial behaviour and/or negative references to one state exerting strong influence (political, military or commercial) over other states.;;;
+104;Military: Positive;The importance of external security and defence.;;A capable military ensures we can maintain peace through strong deterrence.;Conflicts should be resolved through diplomacy and international mediation.
+105;Military: Negative;Negative references to the military or use of military power to solve conflicts.;;;
+106;Peace: Positive;Any declaration of belief in peace and peaceful means of solving crises -- absent  reference to the military.;;Peaceful resolution of conflicts requires patient engagement even with adversaries.;International disputes require patient diplomacy and negotiation rather than military force.
+107;Internationalism: Positive;Need for international co-operation, including co-operation with specific countries  other than those coded in 101 or 108.;;;
+108;European Integration: Positive;Favourable mentions of European Community/Union in general.;;;
+109;Internationalism: Negative;Negative references to international co-operation.;;;
+110;European Integration: Negative;Negative references to the European Community/Union.;;;
+201;Freedom and Human Rights: Positive;Favourable mentions of importance of personal freedom and civil rights in the  manifesto and other countries.;;Protection from government surveillance and corporate data collection protects personal liberty.;To prevent crimes, private spaces must also be monitored.
+202;Democracy: Positive;"Favourable mentions of democracy as the ""only game in town"".";;Think globally - act locally: Global justice cannot be achieved without the participation of citizens and civil society.;In addition, we want to enshrine net neutrality in law.
+203;Constitutionalism: Positive;Support for maintaining the status quo of the constitution.;;;
+204;Constitutionalism: Negative;Opposition to the entirety or specific aspects of the manifesto country's constitution.;;;
+301;Decentralisation: Positive;Support for federalism or decentralisation of political and/or economic power.;;;
+302;Centralisation: Positive;General opposition to political decision-making at lower political levels.;;;
+303;Governmental and Administrative Efficiency: Positive;Government efficiency, reducing bureaucracy, digital administration.;Specific policy positions overrule this category! If there is no specific policy position, however, this category applies. ;;
+304;Political Corruption: Negative;Need to eliminate political corruption and associated abuses of political and/or  bureaucratic power. ;;;
+305;Political Authority: Positive;References to the manifesto party's competence to govern and/or other party's lack of such competence.;Specific policy positions overrule this category! If there is no specific policy position, however, this category applies. ;;
+401;Free Enterprise: Positive;Favourable mentions of the free market and free market capitalism as an economic  model.;;;
+402;Incentives: Positive;Supply-side economic policies, incentives and assistance to businesses.;;Targeted tax relief to boost our start-up scene.;
+403;Market Regulation: Positive;Fair open market, anti-monopoly, consumer protection, market rules.;Focus on rules of the market. Not general economic growth (410).;"that is, each mineral water should be drunk according to the pathology it is intended to treat; however, the Ministry has not carried out research on the matter.";From now on, there will be 4 compulsory subjects in the final exam.
+404;Economic Planning: Positive;Favourable mentions of long-standing economic planning by the government.;;;
+405;Corporatism: Positive;Favourable mentions of cooperation of government, employers, and trade unions  simultaneously.;;;
+406;Protectionism: Positive;Favourable mentions of extending or maintaining the protection of internal markets  (by the manifesto or other countries).;;;
+407;Protectionism: Negative;Support for the concept of free trade and open markets. Call for abolishing all means of  market protection (in the manifesto or any other country). ;;;
+408;Economic Goals;Broad economic goals, such as prosperity, that are not tied to a specific policy instrument or another category.;Specific policy positions overrule this category! If there is no specific policy position, however, this category applies. ;;
+409;Keynesian Demand Management: Positive;Favourable mentions of demand side oriented economic policies (assistance to consumers rather than businesses).;;;
+410;Economic Growth: Positive;Support for classic economic growth and production.;If growth is criticized or replaced by sustainability goals, use 416.;;
+411;Technology and Infrastructure: Positive;Modernisation of infrastructure (transport, broadband) and technology/research.;Infrastructure/Research only. Digital administration -> 303. Business incentives -> 402.;;Tax cuts for new start-ups (-> 402).
+412;Controlled Economy: Positive;"Support for direct government control of economy. May include, for instance:  - Control over prices;  - Introduction of minimum wages. ";;;
+413;Nationalisation: Positive;Favourable mentions of government ownership of industries, either partial or complete.;;;
+414;Economic Orthodoxy: Positive;Need for economically healthy government policy making.;;;
+415;Marxist Analysis: Positive;Positive references to Marxist-Leninist ideology and specific use of Marxist-Leninist  terminology by the manifesto party (typically but not necessary by communist parties).;;;
+416;Anti-Growth Economy: Positive;Rejection of the growth paradigm. Call for sustainable economic development.;Vs 501: 416 focuses on transforming the economy/growth. Vs 410: 416 limits classic growth.;We need an economy that respects planetary boundaries.;We protect our local rivers (-> 501)
+501;Environmental Protection: Positive;Preservation of nature, climate protection, and environment.;Pure nature protection. For systemic economic transformation or growth critique, use 416.;;Noise abatement programs and technical innovations like whisper asphalt contribute to this. [NOT environmental protection - this is TECHNOLOGY/INFRASTRUCTURE]
+502;Culture: Positive;Need for state funding of cultural and leisure facilities including arts and sport.;;;
+503;Equality: Positive;Social justice, fair treatment, anti-discrimination, equality.;Focus on rights/justice. Concrete increases in welfare/pensions -> 504.;Equal pay for equal work for men and women.;
+504;Welfare State Expansion;Favourable mentions of need to introduce, maintain or expand any public social service  or social security scheme.;This category excludes education.;The fight for health in the workplace will be declared a national cause in the first year of our mandate.;From now on, there will be 4 compulsory subjects in the final exam.
+505;Welfare State Limitation;Limiting state expenditures on social services or social security.;;;
+506;Education Expansion;Need to expand and/or improve educational provision at all levels. ;This excludes technical training which is coded under 411. ;;
+507;Education Limitation;Limiting state expenditure on education.;;;
+601;National Way of Life: Positive;Favourable mentions of the manifesto country's nation, history, and general appeals.;;The diversity of educational paths is our strength.;In addition, we want to enshrine net neutrality in law.
+602;National Way of Life: Negative;Unfavourable mentions of the manifesto country's nation and history.;;Excessive nationalism and national pride hinder global cooperation and understanding.;Our national heritage is deeply valued and should be celebrated.
+603;Traditional Morality: Positive;Favourable mentions of traditional and/or religious moral values.;;Religious institutions provide essential moral values and community that society needs.;Religious institutions have historically opposed progress in civil rights and scientific advancement.
+604;Traditional Morality: Negative;Opposition to traditional and/or religious moral values.;;Separation of church and state and diverse family forms must be legally protected.;Family stability and shared moral values are essential foundations for social cohesion.
+605;Law and Order: Positive;Strict law enforcement, police, domestic crime prevention.;Internal security only. Military defense -> 104.;More police presence on our streets.;
+606;Civic Mindedness: Positive;Appeals for national solidarity and the need for society to see itself as united.;;;
+607;Multiculturalism: Positive;Favourable mentions of cultural diversity and cultural plurality within domestic  societies.;;;
+608;Multiculturalism: Negative;The enforcement or encouragement of cultural integration. Appeals for cultural  homogeneity in society. ;;As the main lever of republican integration, it is also the main place where a demanding conception of citizenship is promoted.;Immigrants must learn our language and adopt our national cultural values.
+701;Labour Groups: Positive;Favourable references to all labour groups, the working class, and unemployed workers  in general.;Specific policy positions overrule all 7th domain (except 703)! If there is no specific policy position, however, these categories apply. ;;
+702;Labour Groups: Negative;"Negative references to labour groups and trade unions. May focus specifically on the  danger of unions ""abusing power"". ";;;
+703;Agriculture and Farmers: Positive;Specific policies in favour of agriculture and farmers.;Statements opposing agricultural policy are coded 000;;
+704;Middle Class and Professional Groups: Positive;General favourable references to the middle class.;This is not an economical category but refers to the social group(s). ;;
+705;Underprivileged Minority Groups;Very general favourable references to underprivileged minorities who are defined  neither in economic nor in demographic terms (e.;Only includes favourable statements that cannot be classified in other  categories (e.g. 503, 504, 604 etc.) ;;
+706;Non-Economic Demographic Groups: Positive;General favourable mentions of demographically defined special interest groups of all  kinds.;Might include references to assistance to these groups, but only if these do not fall under other categories (e.g. 503 or 504).;;
