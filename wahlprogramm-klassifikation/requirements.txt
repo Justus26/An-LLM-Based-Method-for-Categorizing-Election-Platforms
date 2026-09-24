@@ -1,0 +1,13 @@
+numpy
+pandas
+requests
+python-dotenv
+tqdm
+openai
+scikit-learn
+scipy
+spacy
+# nur fuer ManifestoBERTa (Skripte 02 und 04):
+torch
+transformers
+sentencepiece

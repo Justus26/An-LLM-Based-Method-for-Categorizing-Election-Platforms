@@ -1,0 +1,229 @@
+{
+  "config": {
+    "run_name": "T23_era_matched",
+    "model": "gemma4-31b-it",
+    "years": [
+      "199809",
+      "200509",
+      "200909",
+      "201309",
+      "201709",
+      "202502"
+    ],
+    "sample_mode": "per_party",
+    "top_k": 15,
+    "rules": true,
+    "pool": "era_matched",
+    "pool_mode": "era_matched",
+    "pool_by_year": {
+      "199809": "200209",
+      "200509": "200209",
+      "200909": "200209",
+      "201309": "202109",
+      "201709": "202109",
+      "202502": "202109"
+    },
+    "seed": 42,
+    "berta": "manifesto-project/manifestoberta-xlm-roberta-56policy-topics-context-2026-1-1",
+    "berta_context_mode": "short",
+    "sample_per_party": 200
+  },
+  "per_year": [
+    {
+      "year": "199809",
+      "n": 1000,
+      "gemma_top1": 0.486,
+      "gemma_top1_ci95": [
+        0.455,
+        0.516
+      ],
+      "gemma_top3": 0.733,
+      "gemma_f1": 0.4042348165128851,
+      "berta_top1": 0.543,
+      "berta_f1": 0.3980274910159804,
+      "anteil_von_berta": 0.8950276243093922
+    },
+    {
+      "year": "200509",
+      "n": 1000,
+      "gemma_top1": 0.513,
+      "gemma_top1_ci95": [
+        0.481975,
+        0.544
+      ],
+      "gemma_top3": 0.75,
+      "gemma_f1": 0.4484687462445612,
+      "berta_top1": 0.546,
+      "berta_f1": 0.46097243260077214,
+      "anteil_von_berta": 0.9395604395604396
+    },
+    {
+      "year": "200909",
+      "n": 1000,
+      "gemma_top1": 0.556,
+      "gemma_top1_ci95": [
+        0.524,
+        0.586
+      ],
+      "gemma_top3": 0.791,
+      "gemma_f1": 0.47334982626416416,
+      "berta_top1": 0.573,
+      "berta_f1": 0.5244622076868677,
+      "anteil_von_berta": 0.9703315881326354
+    },
+    {
+      "year": "201309",
+      "n": 1073,
+      "gemma_top1": 0.5330848089468779,
+      "gemma_top1_ci95": [
+        0.5023299161230196,
+        0.5619757688723206
+      ],
+      "gemma_top3": 0.7707362534948742,
+      "gemma_f1": 0.39440603219333353,
+      "berta_top1": 0.625349487418453,
+      "berta_f1": 0.5252255578500973,
+      "anteil_von_berta": 0.8524590163934426
+    },
+    {
+      "year": "201709",
+      "n": 1200,
+      "gemma_top1": 0.555,
+      "gemma_top1_ci95": [
+        0.5266666666666666,
+        0.5825208333333334
+      ],
+      "gemma_top3": 0.7591666666666667,
+      "gemma_f1": 0.4741420649662669,
+      "berta_top1": 0.5633333333333334,
+      "berta_f1": 0.47022983664878787,
+      "anteil_von_berta": 0.985207100591716
+    },
+    {
+      "year": "202502",
+      "n": 1600,
+      "gemma_top1": 0.63125,
+      "gemma_top1_ci95": [
+        0.608125,
+        0.65375
+      ],
+      "gemma_top3": 0.836875,
+      "gemma_f1": 0.526448095612578,
+      "berta_top1": 0.67875,
+      "berta_f1": 0.5506234995477137,
+      "anteil_von_berta": 0.9300184162062616
+    }
+  ],
+  "positions_per_year": [
+    {
+      "year": "199809",
+      "n_parties": 5,
+      "mae_galtan": 0.18826773525093818,
+      "rho_galtan": 0.9999999999999999,
+      "mae_lr": 0.14719039123019315,
+      "rho_lr": 0.9999999999999999,
+      "vorzeichenfehler_galtan": 0
+    },
+    {
+      "year": "200509",
+      "n_parties": 5,
+      "mae_galtan": 0.0711926834568344,
+      "rho_galtan": 0.9999999999999999,
+      "mae_lr": 0.24560306926331177,
+      "rho_lr": 0.7999999999999999,
+      "vorzeichenfehler_galtan": 0
+    },
+    {
+      "year": "200909",
+      "n_parties": 5,
+      "mae_galtan": 0.08113304450265328,
+      "rho_galtan": 0.9999999999999999,
+      "mae_lr": 0.13069473539015478,
+      "rho_lr": 0.8999999999999998,
+      "vorzeichenfehler_galtan": 0
+    },
+    {
+      "year": "201309",
+      "n_parties": 6,
+      "mae_galtan": 0.12467300720973878,
+      "rho_galtan": 0.8285714285714287,
+      "mae_lr": 0.24341131249744288,
+      "rho_lr": 0.942857142857143,
+      "vorzeichenfehler_galtan": 1
+    },
+    {
+      "year": "201709",
+      "n_parties": 6,
+      "mae_galtan": 0.18722963392486372,
+      "rho_galtan": 1.0,
+      "mae_lr": 0.145965193048577,
+      "rho_lr": 1.0,
+      "vorzeichenfehler_galtan": 1
+    },
+    {
+      "year": "202502",
+      "n_parties": 8,
+      "mae_galtan": 0.0682594980511004,
+      "rho_galtan": 0.9523809523809524,
+      "mae_lr": 0.1344252695382463,
+      "rho_lr": 0.9523809523809524,
+      "vorzeichenfehler_galtan": 0
+    }
+  ],
+  "positions_per_year_berta": [
+    {
+      "year": "199809",
+      "n_parties": 5,
+      "mae_galtan": 0.21725000380051324,
+      "rho_galtan": 0.9999999999999999,
+      "mae_lr": 0.20562070277732453,
+      "rho_lr": 0.9999999999999999,
+      "vorzeichenfehler_galtan": 0
+    },
+    {
+      "year": "200509",
+      "n_parties": 5,
+      "mae_galtan": 0.06879886079283404,
+      "rho_galtan": 0.9999999999999999,
+      "mae_lr": 0.36810565094039677,
+      "rho_lr": 0.9999999999999999,
+      "vorzeichenfehler_galtan": 0
+    },
+    {
+      "year": "200909",
+      "n_parties": 5,
+      "mae_galtan": 0.06803433121882085,
+      "rho_galtan": 0.9999999999999999,
+      "mae_lr": 0.24176638632461653,
+      "rho_lr": 0.7,
+      "vorzeichenfehler_galtan": 0
+    },
+    {
+      "year": "201309",
+      "n_parties": 6,
+      "mae_galtan": 0.12499727638722953,
+      "rho_galtan": 0.942857142857143,
+      "mae_lr": 0.2712630745659255,
+      "rho_lr": 1.0,
+      "vorzeichenfehler_galtan": 1
+    },
+    {
+      "year": "201709",
+      "n_parties": 6,
+      "mae_galtan": 0.16232199240177858,
+      "rho_galtan": 1.0,
+      "mae_lr": 0.08426114666925251,
+      "rho_lr": 1.0,
+      "vorzeichenfehler_galtan": 1
+    },
+    {
+      "year": "202502",
+      "n_parties": 8,
+      "mae_galtan": 0.05717686269212678,
+      "rho_galtan": 1.0,
+      "mae_lr": 0.10179472489614033,
+      "rho_lr": 0.9047619047619048,
+      "vorzeichenfehler_galtan": 0
+    }
+  ]
+}
