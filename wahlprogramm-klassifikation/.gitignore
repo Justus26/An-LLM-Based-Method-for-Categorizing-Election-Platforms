@@ -1,0 +1,15 @@
+# Zugangsdaten
+.env
+ 
+# Wahlprogramme und abgeleitete Daten (Nutzungsbedingungen der Quellen)
+data/
+ 
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+ 
+# System
+.DS_Store
+Thumbs.db
